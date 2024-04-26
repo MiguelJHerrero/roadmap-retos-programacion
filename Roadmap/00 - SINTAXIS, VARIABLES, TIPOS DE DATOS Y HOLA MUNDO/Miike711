@@ -1,0 +1,27 @@
+public class Pruebas {
+
+    public static void main(String[] args) {
+        /*Comentario de texto con URL https://www.java.com/es/
+        Varias lineas de código comentado
+        */
+        
+        //Una linea de  codigo comentada
+        
+        System.out.print("Me llamo Miguel\n"); 
+        //\n sirve para hacer un salto de línea 
+        
+        int n = 1; 
+        String nombre;
+        boolean vf = true;
+        float nume = 3.3456f;
+        double p = 3.14;
+        char letra = 'c';
+        
+        //Variable
+        String lenguaje = "Java";
+        //Constante
+        final double pi = 3.1416;
+        
+        System.out.println("Hola estoy usando el lenguaje "+lenguaje);
+    }
+}
